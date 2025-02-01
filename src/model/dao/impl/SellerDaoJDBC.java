@@ -12,11 +12,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SellerDaoIJDBC implements SellerDao {
+public class SellerDaoJDBC implements SellerDao {
 
     private Connection conn;
 
-    public SellerDaoIJDBC(Connection conn) {
+    public SellerDaoJDBC(Connection conn) {
         this.conn = conn;
     }
 
